@@ -91,3 +91,23 @@ eval {
 };
 $ok = $@ =~ /^Attempt to reset virtual methods/;
 ::ok( $ok,        "Disallow reseting by subclass" );
+
+
+###  This test doesn't work and probably never will.
+###
+# package Test::That;
+# use base qw(Test::Virtual);
+
+# # Let's see how things work with an autoloader.
+# use vars qw($AUTOLOAD);
+# sub AUTOLOAD {
+#     if( $AUTOLOAD =~ /(foo|bar)/ ) {
+#         return "Yay!";
+#     }
+#     else {
+#         die "ARrrrrrrrrrrgh!\n";
+#     }
+# }
+
+# ::ok( ::eqarray([sort __PACKAGE__->missing_methods], [sort qw(new this that)]),
+#       'Autoloaded methods recognized' );
