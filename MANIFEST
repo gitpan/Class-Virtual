@@ -5,3 +5,4 @@ lib/Class/Virtual.pm
 lib/Class/Virtually/Abstract.pm
 t/Abstract.t
 t/Virtual.t
+META.yml                                 Module meta-data (added by MakeMaker)
