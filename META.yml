@@ -1,13 +1,14 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Class-Virtual
-version:      0.04
+version:      0.05
 version_from: lib/Class/Virtual.pm
 installdirs:  site
 requires:
     Carp::Assert:                  0.1
     Class::Data::Inheritable:      0.02
     Class::ISA:                    0.31
+    Test::More:                    0.5
 
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.18
+generated_by: ExtUtils::MakeMaker version 6.25_05
