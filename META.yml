@@ -1,14 +1,16 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Class-Virtual
-version:      0.05
-version_from: lib/Class/Virtual.pm
-installdirs:  site
-requires:
+--- #YAML:1.0
+name:                Class-Virtual
+version:             0.06
+abstract:            ~
+license:             unknown
+generated_by:        ExtUtils::MakeMaker version 6.30_03
+author:              ~
+distribution_type:   module
+requires:     
     Carp::Assert:                  0.1
     Class::Data::Inheritable:      0.02
     Class::ISA:                    0.31
     Test::More:                    0.5
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.25_05
+meta-spec:
+    url: http://module-build.sourceforge.net/META-spec-new.html
+    version: 1.1

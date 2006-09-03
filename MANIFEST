@@ -7,4 +7,3 @@ t/Abstract.t
 t/assert.t
 t/Virtual.t
 META.yml                                 Module meta-data (added by MakeMaker)
-SIGNATURE                                Public-key signature (added by MakeMaker)
